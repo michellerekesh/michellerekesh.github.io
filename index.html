@@ -14,10 +14,7 @@
     
     <script type="text/processing">
     
-   /////////////////main
-
-//float dotx= random(0, 500);
-//float doty= random(0, 500);
+  
 int diameter = 20;
 Dot food;
 int tail=10;
@@ -28,7 +25,6 @@ boolean run = true;
 boolean play = false;
 int score = 0;
 
-//sets up the screen, background, objects, ...
 void setup(){
  
   
@@ -183,7 +179,10 @@ void keyPressed(){
     
   
 }
-/////////////////////////////// Dot
+
+
+
+
 
 public class Dot{  
   float x;
@@ -199,7 +198,11 @@ public class Dot{
    circle(x, y, size); 
   }  
 }
-//////////////////////////// snake
+
+
+
+
+
 public class Snake{
   int radius = 10, directionX = 3, directionY = 0;
   float x, y, speed=0.5;
